@@ -30,8 +30,7 @@ Some features are working, others are in progress — more updates coming soon!
 ## 🖼 Screenshots  
 *(Early version — will be updated as the project grows)*
 
-<img src="assets/screenshots/home.png" width="400" alt="Piggybank Home" />
-<img src="assets/screenshots/goal.png" width="400" alt="Goal Tracker" />
+
 <img  src="https://github.com/user-attachments/assets/4f2a78f9-1fd1-4598-babd-fcb512697b16"  width="400"  />
 <img  src="https://github.com/user-attachments/assets/e98623c7-65c4-4e95-84a0-f9c192f0f84f" width="400"  />
 <img src="https://github.com/user-attachments/assets/649fefd7-3e1c-4107-8512-5e3ba6415526" width="400" />
@@ -39,7 +38,7 @@ Some features are working, others are in progress — more updates coming soon!
 <img  src="https://github.com/user-attachments/assets/a8cc8e11-a235-4dfd-aff4-a2155fe23549" width="400" />
 <img  src="https://github.com/user-attachments/assets/faf17d2c-cebd-4a7d-aebd-c3f58f1228ae" width="400" />
 
-<img  src="https://github.com/user-attachments/assets/74100659-d637-481a-866e-98b0c0ff605a" />
+<img  src="https://github.com/user-attachments/assets/74100659-d637-481a-866e-98b0c0ff605a" width="400" />
 
 
 
@@ -50,9 +49,8 @@ Some features are working, others are in progress — more updates coming soon!
 ---
 
 ## 🛠 Technologies Used
-**Frontend:** React, Tailwind CSS  
-**Backend:** Node.js, Express.js  
-**Database:** SQLite *(may switch later)*  
+Bckend and Frontend: MERN
+**Database:** MOngodb
 
 ---
 
