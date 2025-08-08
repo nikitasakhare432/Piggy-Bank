@@ -1,0 +1,94 @@
+/* Dashboard.css */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-grid-wrapper {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+}
+
+.dashboard-header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+.dashboard-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.stat-box {
+    flex: 1 1 calc(25% - 1rem);
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 1rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #34495e;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.dashboard-tile {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
+    text-align: center;
+    color: #2c3e50;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.dashboard-tile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.dashboard-tile a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard-tile svg {
+    background-color: #e0f7fa;
+    color: #00796b;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+.dashboard-tile p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 1rem;
+}

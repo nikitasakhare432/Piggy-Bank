@@ -1,0 +1,92 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-logo {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #1a73e8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-logo:hover {
+    color: #155ab6;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navbar-link {
+    color: #555;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar-link:hover {
+    color: #1a73e8;
+}
+
+.register-link {
+    margin-left: 1rem;
+}
+
+.navbar-button {
+    background-color: #1a73e8;
+    border: none;
+    color: #fff;
+    padding: 0.4rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-button:hover {
+    background-color: #155ab6;
+}
+
+.navbar-icon-link {
+    color: inherit;
+    margin-right: 20px;
+    /* adds space after profile icon */
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0;
+}
+
+.navbar-icon-button {
+    color: inherit;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+}
+
+/* Hover effect for both */
+.navbar-icon-link:hover,
+.navbar-icon-button:hover {
+    color: #007bff;
+}

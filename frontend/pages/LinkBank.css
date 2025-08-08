@@ -1,0 +1,79 @@
+.linkbank-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #e3f2fd, #bbdefb);
+}
+
+.linkbank-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.linkbank-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #3f51b5;
+}
+
+.linkbank-form label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.linkbank-form input,
+.linkbank-form select {
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border 0.3s;
+}
+
+.linkbank-form input:focus,
+.linkbank-form select:focus {
+    border-color: #3f51b5;
+    outline: none;
+}
+
+.linkbank-button {
+    width: 100%;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.75rem;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.linkbank-button:hover {
+    background-color: #303f9f;
+}
+
+.linkbank-message {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.linkbank-message.success {
+    color: green;
+}
+
+.linkbank-message.error {
+    color: red;
+}

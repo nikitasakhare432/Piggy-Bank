@@ -1,0 +1,79 @@
+/* Container to center the form */
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Card-style box */
+.login-card {
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+}
+
+/* Title */
+.login-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Form styles */
+.login-form input {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-color: #4d90fe;
+    box-shadow: 0 0 0 3px rgba(77, 144, 254, 0.3);
+}
+
+.login-form button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    background: #4d90fe;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.login-form button:hover {
+    background: #357ae8;
+}
+
+/* Link below the form */
+.signup-link {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.signup-link a {
+    color: #4d90fe;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

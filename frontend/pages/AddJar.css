@@ -1,0 +1,69 @@
+/* AddJar.css */
+
+.add-jar-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(to bottom right, #eef6f7, #e8f0fe);
+    min-height: 100vh;
+}
+
+.add-jar-box {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.add-jar-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #1e3a5f;
+}
+
+.add-jar-form-group {
+    margin-bottom: 1rem;
+}
+
+.add-jar-label {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.add-jar-input,
+.add-jar-select,
+.add-jar-textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    outline-color: #00acc1;
+}
+
+.add-jar-checkbox-group {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.add-jar-button {
+    background-color: #00acc1;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+.add-jar-button:hover {
+    background-color: #0097a7;
+}
